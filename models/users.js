@@ -10,14 +10,14 @@ const User = db.define('m_user', {
   },
   username: {
     type: Sequelize.STRING,
-    unique: true,
+    // unique: true,
   },
   phone: {
     type: Sequelize.STRING,
   },
   email: {
     type: Sequelize.STRING,
-    unique: true,
+    // unique: true,
   },
   password: {
     type: Sequelize.STRING,

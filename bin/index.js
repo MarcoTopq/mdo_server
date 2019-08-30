@@ -1,7 +1,7 @@
 var Sequelize = require('sequelize');
 
 var db = new Sequelize({
-  database: 'testing', 
+  database: 'mdo', 
   username: 'root', 
   password: '',
   host: 'localhost',
